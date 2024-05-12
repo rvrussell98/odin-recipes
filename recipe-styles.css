@@ -1,22 +1,55 @@
 .recipe-img {
     width: 30%;
     height: 30%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    border: 3px solid white;
+}
+
+.mignon-img {
+    width: 50%;
+    height: 50%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    border: 3px solid white;
+}
+
+.twice-baked-img {
+    width: 50%;
+    height: 50%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    border: 3px solid white;
+
 }
 
 html {
-    height: 100%;
+    min-height: 100%;
 }
 
 body {
     background: linear-gradient(rgb(42, 176, 221), #FFFFFF);
+    height: 100%;
+    overflow: auto;
+    
 }
 
-.recipe-img {
-    display: block;
-    margin-right: auto;
-    margin-left: auto;
-}
 
 h1 {
     text-align: center;
+}
+
+hr {
+    border: 1px solid white;
+    width: 88%;
+    margin-bottom: 10px;
+    
+}
+
+.last-hr {
+    border: 1px solid rgb(42, 176, 221);
+    width: 100%;
 }
