@@ -7,3 +7,43 @@ body {
     background: linear-gradient(rgb(42, 176, 221), #FFFFFF);
     height: 100%;
 }
+
+a:visited {
+    color: #FFFFFF;
+}
+
+a:hover {
+    color: #9b9b9b;
+}
+
+a {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+
+.recipe-list {
+    text-align: center;
+    width: 30%;
+    margin: 0 auto;
+    padding: 1px;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 45px;
+    color: #FFFFFF;
+}
+
+li {
+    padding-top: 5px;
+}
+
+.chef-img {
+    height: 30%;
+    width: 30%;
+    margin: auto;
+    display: block;
+}
+
+
