@@ -1,0 +1,22 @@
+.recipe-img {
+    width: 30%;
+    height: 30%;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    background: linear-gradient(rgb(42, 176, 221), #FFFFFF);
+}
+
+.recipe-img {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+h1 {
+    text-align: center;
+}
